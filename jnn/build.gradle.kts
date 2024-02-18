@@ -17,8 +17,15 @@ repositories {
 }
 
 dependencies {
-    // This dependency is used by the application.
-    implementation(libs.guava)
+  // This dependency is used by the application.
+  implementation(libs.guava)
+
+  // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
+  //implementation("org.apache.logging.log4j:log4j-core:3.0.0-beta1")
+
+  // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
+  implementation("org.apache.logging.log4j:log4j-core:2.22.1")
+
 }
 
 testing {
