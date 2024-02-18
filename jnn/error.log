@@ -12,3 +12,7 @@
 16:27:19.102 [main] FATAL org.apache.logging.log4j.Logger - fatal
 16:29:00.685 [main] ERROR org.apache.logging.log4j.Logger - error
 16:29:00.685 [main] FATAL org.apache.logging.log4j.Logger - fatal
+17:38:56.951 [main] ERROR org.apache.logging.log4j.Logger - error
+17:38:56.952 [main] FATAL org.apache.logging.log4j.Logger - fatal
+17:42:28.653 [main] ERROR org.apache.logging.log4j.Logger - error
+17:42:28.653 [main] FATAL org.apache.logging.log4j.Logger - fatal

@@ -1,32 +1,47 @@
 package luh.jnn.nn;
 
 public class Neuron {
-    private float bias;
-    private float[] weights;
-    
-    public Neuron(float bias, float[] weights) {
-      this.bias = bias; 
-      this.weights = weights;
-    }
+  private Synapse[] inputSynapses;
+  private Synapse[] outputSynapses;
+  private float z;
+  
+  public Neuron(Synapse[] inputSynapses) {
+    this.inputSynapses = inputSynapses;
+  }
 
-    public Neuron(float bias) {
-      this.bias = bias;
-      this.weights = null;
-    }
-    
-    public void setBias(float bias) {
-      this.bias = bias;
-    }
+  public Neuron() {
 
-    public void setWeights(float[] weights) {
-      this.weights = weights;
-    }
+  } 
 
-    public float getBias() {
-      return this.bias;
-    }
+  public float getZ() {
+    return z;
+  }
 
-    public float[] getWeights() {
-      return this.weights;
-    }
+  public void setZ(float z) {
+    this.z = z;
+  }
+
+	public Synapse[] getInputSynapses() {
+		return inputSynapses;
+	}
+
+	public void setInputSynapses(Synapse[] inputSynapses) {
+		this.inputSynapses = inputSynapses;
+	}
+
+  public void setInputSynapse(Synapse s, int i) {
+    this.inputSynapses[i] = s;
+  }
+
+	public Synapse[] getOutputSynapses() {
+		return outputSynapses;
+	}
+
+	public void setOutputSynapses(Synapse[] outputSynapses) {
+		this.outputSynapses = outputSynapses;
+	}
+
+  public void setOutputSynapse(Synapse s, int i) {
+    this.outputSynapses[i] = s;
+  }
 }

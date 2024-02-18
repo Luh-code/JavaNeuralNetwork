@@ -1,10 +1,10 @@
 package luh.jnn;
 
-import org.apache.logging.log4j.core.Logger;
+import java.util.Arrays;
+import java.util.Random;
 
 import luh.jnn.console.Arguments;
 import luh.jnn.nn.*;
-import luh.jnn.console.arghandlers.*;
 
 public class Main {
   
@@ -13,19 +13,30 @@ public class Main {
     
     Arguments a = new Arguments(args);
     a.processArguments();
-    
-    Logging.logger.debug("debug");
-    Logging.logger.info("info");
-    Logging.logger.warn("warn");
-    Logging.logger.error("error");
-    Logging.logger.fatal("fatal");
 
     Layer[] layers = new Layer[] {
-      new Layer(10, 0),
-          new Layer(6, 0),
-          new Layer(8, 0),
-          new Layer(3, 0)
+      new Layer(10, 1f),
+      new Layer(6, 1f),
+      new Layer(8, 1f),
+      new Layer(3, 1f)
     };
     NeuralNetwork nn = new NeuralNetwork(layers);
+    nn.initalizeDenseNeuralNetwork();
+    nn.clear();
+
+    Layer outputLayer = nn.getOutputLayer();
+    Neuron firstNeuron = outputLayer.getNeuron(0);
+    Synapse firstSynapse = firstNeuron.getInputSynapses()[0];
+    firstSynapse.setWeight(-0.7f);
+    
+    NNEvaluator evaluator = new NNEvaluator(nn);
+    float[] conditioning = new float[nn.getInputLayer().getTensorSize()];
+    Random random = new Random();
+    for (int i = 0; i < conditioning.length; i++) {
+      conditioning[i] = random.nextFloat(-1.0f, 1.0f);
+    }
+    evaluator.setConditioning(conditioning);
+    evaluator.fullEvaluation();
+    Logging.logger.info(Arrays.toString(evaluator.getResult()));
   }
 }
