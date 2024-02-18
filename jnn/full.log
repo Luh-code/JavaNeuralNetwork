@@ -10,3 +10,15 @@
 13:43:17.063 [main] WARN  org.apache.logging.log4j.Logger - warn
 13:43:17.063 [main] ERROR org.apache.logging.log4j.Logger - error
 13:43:17.063 [main] FATAL org.apache.logging.log4j.Logger - fatal
+13:47:53.922 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:47:53.928 [main] DEBUG org.apache.logging.log4j.Logger - debug
+13:47:53.928 [main] INFO  org.apache.logging.log4j.Logger - info
+13:47:53.928 [main] WARN  org.apache.logging.log4j.Logger - warn
+13:47:53.928 [main] ERROR org.apache.logging.log4j.Logger - error
+13:47:53.928 [main] FATAL org.apache.logging.log4j.Logger - fatal
+13:48:34.411 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:48:34.416 [main] DEBUG org.apache.logging.log4j.Logger - debug
+13:48:34.416 [main] INFO  org.apache.logging.log4j.Logger - info
+13:48:34.416 [main] WARN  org.apache.logging.log4j.Logger - warn
+13:48:34.417 [main] ERROR org.apache.logging.log4j.Logger - error
+13:48:34.417 [main] FATAL org.apache.logging.log4j.Logger - fatal
