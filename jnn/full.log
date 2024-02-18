@@ -69,3 +69,5 @@
 19:57:29.289 [main] INFO  org.apache.logging.log4j.Logger - [88.80633, 88.80633, 88.80633]
 20:03:27.672 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
 20:03:27.684 [main] INFO  org.apache.logging.log4j.Logger - [119.19508, 151.35884, 151.35884]
+20:16:13.145 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+20:16:13.155 [main] INFO  org.apache.logging.log4j.Logger - [68.32919, 86.49738, 86.49738]
