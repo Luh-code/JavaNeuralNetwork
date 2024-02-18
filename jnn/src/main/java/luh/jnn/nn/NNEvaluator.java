@@ -54,6 +54,7 @@ public class NNEvaluator {
       for (Synapse s : n.getInputSynapses()) {
         s.propogateValue();
       }
+      n.setZ(n.getZ()+layer.getBias());
     }
   }
 
