@@ -1,8 +1,0 @@
-13:31:05.091 [main] ERROR org.apache.logging.log4j.Logger - error
-13:31:05.094 [main] FATAL org.apache.logging.log4j.Logger - fatal
-13:33:15.115 [main] ERROR org.apache.logging.log4j.Logger - error
-13:33:15.119 [main] FATAL org.apache.logging.log4j.Logger - fatal
-13:34:04.692 [main] ERROR org.apache.logging.log4j.Logger - error
-13:34:04.695 [main] FATAL org.apache.logging.log4j.Logger - fatal
-13:34:13.673 [main] ERROR org.apache.logging.log4j.Logger - error
-13:34:13.676 [main] FATAL org.apache.logging.log4j.Logger - fatal
