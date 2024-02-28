@@ -1,7 +1,7 @@
 # TODO
 
  -[X] Add way to add noise
- -[ ] Add saving and loading of weights and biases
+ -[X] Add saving and loading of weights and biases
  -[ ] Add training framework
  -[ ] Add Test suite
  -[ ] Add evolutionary algorithm

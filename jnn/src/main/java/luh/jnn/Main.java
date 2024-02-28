@@ -4,9 +4,13 @@ import java.io.File;
 import java.util.Arrays;
 import java.util.Random;
 
+import com.google.common.base.Objects;
+
 import luh.jnn.console.Arguments;
 import luh.jnn.nn.*;
+import luh.jnn.serialization.NNLoader;
 import luh.jnn.serialization.NNSaver;
+import luh.jnn.serialization.NeuralNetworkOISDeserializer;
 import luh.jnn.serialization.NeuralNetworkOOSSerializer;
 
 public class Main {
@@ -44,5 +48,13 @@ public class Main {
 
     NNSaver saver = new NNSaver(new NeuralNetworkOOSSerializer());
     saver.saveToFile(new File("test.bin"), nn);
+    
+    NNLoader loader = new NNLoader(new NeuralNetworkOISDeserializer());
+    NeuralNetwork deserializedNN = loader.loadFromFile(new File("test.bin"));
+
+    NNEvaluator evaluator2 = new NNEvaluator(deserializedNN);
+    evaluator2.setConditioning(conditioning);
+    evaluator2.fullEvaluation();
+    Logging.logger.info(Arrays.toString(evaluator2.getResult()));
   }
 }
