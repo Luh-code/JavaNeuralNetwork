@@ -30,6 +30,7 @@ public class NNSaver {
         Logging.logger.trace(e);
         return null;
       }
+    } else {
       Logging.logger.info("Truncating old temp file");
     }
 
