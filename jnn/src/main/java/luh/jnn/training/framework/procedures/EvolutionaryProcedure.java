@@ -91,7 +91,7 @@ public class EvolutionaryProcedure implements TrainingProcedure {
       // Logging.logger.info(String.format("Accuracy: %f (error: %f)", 1.0f-error, error));
 
       if (error < this.bestError) {
-        Logging.logger.info(String.format("Found model with higher accuracy (Accuracy: %f.6/%f.4%% -> Error: %f.6/%f.4%%",
+        Logging.logger.info(String.format("Found model with higher accuracy (Accuracy: %.6f/%.4f%% -> Error: %.6f/%.4f%%",
               1.0f-error, (1.0f-error)*100.0f,
               error, error*100.0f));
         this.best = current;
