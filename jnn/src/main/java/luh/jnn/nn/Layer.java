@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 import luh.jnn.Logging;
 
-public class Layer implements Serializable {
+public class Layer implements Serializable, Cloneable {
   private static final long serialVersionUID = 1L;
   private Neuron[] neurons;
   private float bias;
@@ -69,5 +69,15 @@ public class Layer implements Serializable {
 
   public void setBias(float bias) {
     this.bias = bias;
+  }
+
+  @Override
+  public Layer clone() {
+    Neuron[] tempNeurons = new Neuron[this.neurons.length];
+    for(int i = 0; i < tempNeurons.length; i++) {
+      tempNeurons[i] = this.neurons[i].clone();
+    }
+    Layer temp = new Layer(tempNeurons, this.bias);
+    return temp;
   }
 }

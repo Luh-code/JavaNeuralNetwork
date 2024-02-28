@@ -56,7 +56,7 @@ public class NNEvaluator {
 
     Layer input = nn.getLayer(0);
     if (input.getTensorSize() != conditioning.length) {
-      Logging.logger.error(String.format("Tensor size mismatch '%d' to '%d'"));
+      Logging.logger.error(String.format("Tensor size mismatch '%d' to '%d'", input.getTensorSize(), conditioning.length));
     }
 
     input.setTensor(conditioning);
