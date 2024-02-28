@@ -49,6 +49,7 @@ public class NNTrainer {
   }
 
   private void iteration() {
+    Logging.logger.info(String.format("Iteration %d", this.currentIteration));
     this.nn = this.proc.train(this.nn, config);
     saveIfDistanceReached();
   }

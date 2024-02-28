@@ -98,7 +98,8 @@ public class NNSaver {
     boolean res = serializer.serialize(file, nn);
     if (!res) return false;
     
-    Logging.logger.info(String.format("Successfully serialized neural network to '%s' (size: %d bytes, path: '%s')", file.getPath(), file.length(), file.getAbsoluteFile()));
+    Logging.logger.info(String.format("Successfully serialized neural network to '%s' (size: %d bytes)", file.getPath(), file.length()));
+    Logging.logger.debug(String.format("\t Absolute path: '%s'", file.getAbsolutePath()));
 
     return true;
   }
