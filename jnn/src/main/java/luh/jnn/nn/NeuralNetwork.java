@@ -2,7 +2,7 @@ package luh.jnn.nn;
 
 import java.io.Serializable;
 
-public class NeuralNetwork implements Serializable {
+public class NeuralNetwork implements Serializable, Cloneable {
   private static final long serialVersionUID = 1L;
   private Layer[] layers;
 
@@ -11,8 +11,8 @@ public class NeuralNetwork implements Serializable {
   }
 
   public void initalizeDenseNeuralNetwork() {
-    for (int i = 1; i < getLayerCount(); ++i) {
-      createDenseSynapticConnection(i-1, i, 1.0f);
+    for (int i = 0; i < getLayerCount()-1; ++i) {
+      createDenseSynapticConnection(i, i+1, 1.0f);
     }
   }
 
@@ -73,5 +73,27 @@ public class NeuralNetwork implements Serializable {
       throw new RuntimeException(String.format("Cannot get Layer with index '%d', as '%d' is the maximum index", index, this.layers.length-1));
     }
     return this.layers[index];
+  }
+
+  @Override
+  public NeuralNetwork clone() {
+    Layer[] tempLayers = new Layer[this.layers.length];
+    for (int i = 0; i < tempLayers.length; i++) {
+      tempLayers[i] = this.layers[i].clone();
+
+      if (i != 0) {
+        for (int j = 0; j < tempLayers[i-1].getTensorSize(); j++) {
+          Neuron n0 = tempLayers[i-1].getNeuron(j);
+          for (int a = 0; a < n0.getOutputSynapses().length; a++) {
+            Neuron n1 = tempLayers[i].getNeuron(a);
+            
+            n1.setInputSynapse(n0.getOutputSynapses()[a], j);
+            n0.getOutputSynapses()[a].setOutput(n1);
+          }
+        }
+      }
+    }
+    NeuralNetwork temp = new NeuralNetwork(tempLayers);
+    return temp;
   }
 }

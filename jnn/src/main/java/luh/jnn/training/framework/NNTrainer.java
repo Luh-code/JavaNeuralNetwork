@@ -49,7 +49,7 @@ public class NNTrainer {
   }
 
   private void iteration() {
-    this.proc.train(this.nn, config);
+    this.nn = this.proc.train(this.nn, config);
     saveIfDistanceReached();
   }
 
@@ -74,5 +74,9 @@ public class NNTrainer {
       iteration();
       this.currentIteration++;
     }
+  }
+
+  public NeuralNetwork getTrainedNeuralNetwork() {
+    return this.nn;
   }
 }

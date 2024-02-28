@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 import luh.jnn.Logging;
 
-public class Synapse implements Serializable {
+public class Synapse implements Serializable, Cloneable {
   private static final long serialVersionUID = 1L;
   private Neuron input;
   private float weight;
@@ -43,5 +43,9 @@ public class Synapse implements Serializable {
     this.output = output;
   }
 
-
+  @Override
+  public Synapse clone() {
+    Synapse temp = new Synapse(null, this.weight, null);
+    return temp;
+  }
 }

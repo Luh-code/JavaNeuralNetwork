@@ -25,7 +25,7 @@ public class Main {
     a.processArguments();
 
     Layer[] layers = new Layer[] {
-      new Layer(120, 1f),
+      new Layer(6, 1f),
       new Layer(16, 1f),
       new Layer(8, 1f),
       new Layer(3, 1f)
@@ -40,17 +40,21 @@ public class Main {
     firstSynapse.setWeight(-0.7f);
     
     NNEvaluator evaluator = new NNEvaluator(nn);
-    float[] conditioning = new float[nn.getInputLayer().getTensorSize()];
-    Random random = new Random();
-    for (int i = 0; i < conditioning.length; i++) {
-      conditioning[i] = random.nextFloat(-1.0f, 1.0f);
-    }
+    float[] conditioning = new float[] {0.12f, 0.88f, 0.94f, 0.52f, 0.01f, 0.04f};
+    // float[] conditioning = new float[nn.getInputLayer().getTensorSize()];
+    // Random random = new Random();
+    // for (int i = 0; i < conditioning.length; i++) {
+    //   conditioning[i] = random.nextFloat(-1.0f, 1.0f);
+    // }
     evaluator.setConditioning(conditioning);
     evaluator.fullEvaluation();
     Logging.logger.info(Arrays.toString(evaluator.getResult()));
 
-    NNTrainer trainer = new NNTrainer(new EvolutionaryProcedure(100), nn, new NNSaver(new NeuralNetworkOOSSerializer()));
-    trainer.train(new TrainingConfig(new TrainingDataSet(new TrainingData[1]), 1000, 50, new File("models/test/checkpoints/"), "test"));
+    NNTrainer trainer = new NNTrainer(new EvolutionaryProcedure(100, 0.1f), nn, new NNSaver(new NeuralNetworkOOSSerializer()));
+    trainer.train(new TrainingConfig(new TrainingDataSet(new TrainingData[] {
+      new TrainingData(new float[] {0.12f, 0.88f, 0.94f, 0.52f, 0.01f, 0.04f}, new float[] {1.0f, 0.4f, 0.2f}),
+    }), 1000, 50, new File("models/test/checkpoints/"), "test"));
+    nn = trainer.getTrainedNeuralNetwork();
 
     NNSaver saver = new NNSaver(new NeuralNetworkOOSSerializer());
     saver.saveToFile(new File("test.bin"), nn);

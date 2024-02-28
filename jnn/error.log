@@ -36,3 +36,4 @@
 17:37:04.750 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint850.bin'
 17:37:04.751 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint900.bin'
 17:37:04.752 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint950.bin'
+21:29:20.625 [main] ERROR org.apache.logging.log4j.Logger - Tensor size mismatch '6' to '4'
