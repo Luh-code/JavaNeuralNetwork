@@ -49,3 +49,4 @@ application {
     // Define the main class for the application.
     mainClass = "luh.jnn.Main"
 }
+
