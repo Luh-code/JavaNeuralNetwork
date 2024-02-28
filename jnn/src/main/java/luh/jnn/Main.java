@@ -4,14 +4,17 @@ import java.io.File;
 import java.util.Arrays;
 import java.util.Random;
 
-import com.google.common.base.Objects;
-
 import luh.jnn.console.Arguments;
 import luh.jnn.nn.*;
 import luh.jnn.serialization.NNLoader;
 import luh.jnn.serialization.NNSaver;
 import luh.jnn.serialization.NeuralNetworkOISDeserializer;
 import luh.jnn.serialization.NeuralNetworkOOSSerializer;
+import luh.jnn.training.TrainingData;
+import luh.jnn.training.TrainingDataSet;
+import luh.jnn.training.framework.NNTrainer;
+import luh.jnn.training.framework.TrainingConfig;
+import luh.jnn.training.framework.procedures.EvolutionaryProcedure;
 
 public class Main {
   
@@ -22,8 +25,8 @@ public class Main {
     a.processArguments();
 
     Layer[] layers = new Layer[] {
-      new Layer(10, 1f),
-      new Layer(6, 1f),
+      new Layer(120, 1f),
+      new Layer(16, 1f),
       new Layer(8, 1f),
       new Layer(3, 1f)
     };
@@ -45,6 +48,9 @@ public class Main {
     evaluator.setConditioning(conditioning);
     evaluator.fullEvaluation();
     Logging.logger.info(Arrays.toString(evaluator.getResult()));
+
+    NNTrainer trainer = new NNTrainer(new EvolutionaryProcedure(100), nn, new NNSaver(new NeuralNetworkOOSSerializer()));
+    trainer.train(new TrainingConfig(new TrainingDataSet(new TrainingData[1]), 1000, 50, new File("models/test/checkpoints/"), "test"));
 
     NNSaver saver = new NNSaver(new NeuralNetworkOOSSerializer());
     saver.saveToFile(new File("test.bin"), nn);

@@ -25,8 +25,22 @@ public class NNEvaluator {
     readOutputTensor();
   }
 
+  private float mapFloat(float value, float min, float max) {
+    float rangeSpan = max - min;
+
+    return ((value + max) / rangeSpan);
+  }
+
+  private void normalizeOutputTensor() {
+    for (int i = 0; i < this.result.length; i++) {
+      // TODO: fix this
+      this.result[i] = mapFloat(this.result[i], -1000, 1000);
+    }
+  }
+
   private void readOutputTensor() {
     this.result = nn.getLayer(nn.getLayerCount()-1).getTensor();
+    normalizeOutputTensor();
   }
 
   private void applyConditioning() {
