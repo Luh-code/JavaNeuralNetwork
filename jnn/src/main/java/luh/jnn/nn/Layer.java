@@ -1,8 +1,11 @@
 package luh.jnn.nn;
 
+import java.io.Serializable;
+
 import luh.jnn.Logging;
 
-public class Layer {
+public class Layer implements Serializable {
+  private static final long serialVersionUID = 1L;
   private Neuron[] neurons;
   private float bias;
 

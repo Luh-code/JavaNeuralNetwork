@@ -71,3 +71,359 @@
 20:03:27.684 [main] INFO  org.apache.logging.log4j.Logger - [119.19508, 151.35884, 151.35884]
 20:16:13.145 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
 20:16:13.155 [main] INFO  org.apache.logging.log4j.Logger - [68.32919, 86.49738, 86.49738]
+20:31:42.321 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+20:31:42.332 [main] INFO  org.apache.logging.log4j.Logger - [29.767866, 37.53062, 37.53062]
+09:55:08.038 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+09:55:08.114 [main] INFO  org.apache.logging.log4j.Logger - [32.531975, 41.040607, 41.040607]
+13:37:22.404 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:37:22.418 [main] INFO  org.apache.logging.log4j.Logger - [71.608, 90.66096, 90.66096]
+13:38:17.251 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:38:17.262 [main] INFO  org.apache.logging.log4j.Logger - [-5.345653, -7.057972, -7.057972]
+13:38:17.264 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' overridden; backup saved at 'test.bin'
+13:38:25.336 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:38:25.348 [main] INFO  org.apache.logging.log4j.Logger - [99.65629, 126.277824, 126.277824]
+13:38:25.351 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+13:38:25.353 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' overridden; backup saved at 'test.bin'
+13:38:32.166 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:38:32.176 [main] INFO  org.apache.logging.log4j.Logger - [16.63304, 20.851479, 20.851479]
+13:38:32.179 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' overridden; backup saved at 'test.bin'
+13:39:15.060 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:39:15.074 [main] INFO  org.apache.logging.log4j.Logger - [71.16303, 90.0959, 90.0959]
+13:39:15.078 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' overridden; backup saved at 'test.bin'
+13:42:26.675 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:42:26.687 [main] INFO  org.apache.logging.log4j.Logger - [42.28357, 53.42358, 53.42358]
+13:42:26.690 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+13:42:26.691 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' overridden; backup saved at 'test.bin'
+13:42:26.731 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 0mb, name:)
+13:43:36.226 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:43:36.240 [main] INFO  org.apache.logging.log4j.Logger - [0.7136246, 0.6363487, 0.6363487]
+13:43:36.243 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+13:43:36.245 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' overridden; backup saved at 'test.bin'
+13:43:36.283 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383bytes, name:)
+13:44:04.094 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:44:04.106 [main] INFO  org.apache.logging.log4j.Logger - [32.3404, 40.797337, 40.797337]
+13:44:04.110 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+13:44:04.112 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' overridden; backup saved at 'test.bin'
+13:44:04.157 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, name: test.bin)
+13:45:07.233 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:45:07.243 [main] INFO  org.apache.logging.log4j.Logger - [47.27312, 59.759518, 59.759518]
+13:45:07.245 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+13:45:07.246 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' overridden; backup saved at 'test.bin'
+13:45:07.285 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+13:46:03.871 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:46:03.887 [main] INFO  org.apache.logging.log4j.Logger - [-130.13646, -165.52248, -165.52248]
+13:46:03.891 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+13:46:03.893 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' truncated; backup saved at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+13:46:03.943 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+13:47:11.175 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:47:11.187 [main] INFO  org.apache.logging.log4j.Logger - [70.59839, 89.37891, 89.37891]
+13:47:11.231 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+13:47:22.198 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:47:22.207 [main] INFO  org.apache.logging.log4j.Logger - [-23.726753, -30.399052, -30.399052]
+13:47:22.210 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' truncated; backup saved at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+13:48:03.950 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:48:03.961 [main] INFO  org.apache.logging.log4j.Logger - [-38.053665, -48.591953, -48.591953]
+13:48:04.003 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+13:48:22.591 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:48:22.601 [main] INFO  org.apache.logging.log4j.Logger - [-12.002612, -15.511253, -15.511253]
+13:48:22.641 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+13:48:26.407 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:48:26.419 [main] INFO  org.apache.logging.log4j.Logger - [47.071224, 59.50314, 59.50314]
+13:48:26.422 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' truncated; backup saved at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+13:48:26.468 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+13:50:13.747 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:50:13.759 [main] INFO  org.apache.logging.log4j.Logger - [42.94202, 54.25971, 54.25971]
+13:50:13.762 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+13:50:13.763 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+13:50:13.809 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+13:50:48.895 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:50:48.908 [main] INFO  org.apache.logging.log4j.Logger - [-64.2137, -81.81104, -81.81104]
+13:50:48.961 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+13:50:53.606 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:50:53.618 [main] INFO  org.apache.logging.log4j.Logger - [-81.89371, -104.26185, -104.26185]
+13:50:53.620 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+13:50:53.654 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+13:51:26.832 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:51:26.841 [main] INFO  org.apache.logging.log4j.Logger - [142.4526, 180.62234, 180.62234]
+13:51:26.844 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+13:51:26.845 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+13:51:26.882 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+13:52:29.173 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:52:29.183 [main] INFO  org.apache.logging.log4j.Logger - [-50.92398, -64.93522, -64.93522]
+13:52:29.186 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+13:52:29.188 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+13:52:29.225 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+14:13:28.653 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+14:13:28.663 [main] INFO  org.apache.logging.log4j.Logger - [128.34088, 162.7027, 162.7027]
+14:13:28.666 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+14:13:28.667 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+14:13:28.705 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+14:13:28.719 [main] INFO  org.apache.logging.log4j.Logger - Successfully deserialized neural network from 'test.bin'
+14:14:26.212 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+14:14:26.223 [main] INFO  org.apache.logging.log4j.Logger - [40.568798, 51.24609, 51.24609]
+14:14:26.226 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+14:14:26.227 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+14:14:26.262 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+14:14:26.275 [main] INFO  org.apache.logging.log4j.Logger - Successfully deserialized neural network from 'test.bin'
+14:15:51.485 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+14:15:51.496 [main] INFO  org.apache.logging.log4j.Logger - [79.58318, 100.78816, 100.78816]
+14:15:51.498 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+14:15:51.499 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+14:15:51.538 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+14:15:51.552 [main] INFO  org.apache.logging.log4j.Logger - Successfully deserialized neural network from 'test.bin'
+14:15:51.552 [main] INFO  org.apache.logging.log4j.Logger - [79.58318, 100.78816, 100.78816]
+14:16:20.955 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+14:16:20.965 [main] INFO  org.apache.logging.log4j.Logger - [-86.13732, -109.650566, -109.650566]
+14:16:20.968 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+14:16:20.969 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+14:16:21.005 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+14:16:21.020 [main] INFO  org.apache.logging.log4j.Logger - Successfully deserialized neural network from 'test.bin'
+14:16:21.020 [main] INFO  org.apache.logging.log4j.Logger - [-86.13732, -109.650566, -109.650566]
+14:16:34.303 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+14:16:34.313 [main] INFO  org.apache.logging.log4j.Logger - [68.803375, 87.09953, 87.09953]
+14:16:34.352 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+14:16:34.366 [main] INFO  org.apache.logging.log4j.Logger - Successfully deserialized neural network from 'test.bin'
+14:16:34.366 [main] INFO  org.apache.logging.log4j.Logger - [68.803375, 87.09953, 87.09953]
+14:16:42.038 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+14:16:42.053 [main] INFO  org.apache.logging.log4j.Logger - [59.63787, 75.46079, 75.46079]
+14:16:42.055 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+14:16:42.088 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+14:16:42.100 [main] INFO  org.apache.logging.log4j.Logger - Successfully deserialized neural network from 'test.bin'
+14:16:42.101 [main] INFO  org.apache.logging.log4j.Logger - [59.63787, 75.46079, 75.46079]
+16:51:40.036 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+16:51:40.047 [main] INFO  org.apache.logging.log4j.Logger - [-671.9661, -853.5601, -853.5601]
+16:51:40.049 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+16:51:40.051 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+16:51:40.253 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+16:51:40.318 [main] INFO  org.apache.logging.log4j.Logger - Successfully deserialized neural network from 'test.bin'
+16:51:40.319 [main] INFO  org.apache.logging.log4j.Logger - [-671.9661, -853.5601, -853.5601]
+17:07:55.680 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+17:07:55.693 [main] INFO  org.apache.logging.log4j.Logger - [1.0, 1.0, 1.0]
+17:07:55.695 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+17:07:55.697 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+17:07:55.941 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+17:07:56.021 [main] INFO  org.apache.logging.log4j.Logger - Successfully deserialized neural network from 'test.bin'
+17:07:56.022 [main] INFO  org.apache.logging.log4j.Logger - [1.0, 1.0, 1.0]
+17:10:37.176 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+17:10:37.191 [main] INFO  org.apache.logging.log4j.Logger - [0.0, 0.0, 0.0]
+17:10:37.194 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+17:10:37.197 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+17:10:37.388 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+17:10:37.431 [main] INFO  org.apache.logging.log4j.Logger - Successfully deserialized neural network from 'test.bin'
+17:10:37.432 [main] INFO  org.apache.logging.log4j.Logger - [0.0, 0.0, 0.0]
+17:10:41.170 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+17:10:41.182 [main] INFO  org.apache.logging.log4j.Logger - [0.0, 0.0, 0.0]
+17:10:41.184 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+17:10:41.186 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+17:10:41.451 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+17:10:41.511 [main] INFO  org.apache.logging.log4j.Logger - Successfully deserialized neural network from 'test.bin'
+17:10:41.512 [main] INFO  org.apache.logging.log4j.Logger - [0.0, 0.0, 0.0]
+17:12:04.849 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+17:12:04.861 [main] INFO  org.apache.logging.log4j.Logger - [0.13801388, 0.040200166, 0.040200166]
+17:12:04.863 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+17:12:04.865 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+17:12:05.044 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+17:12:05.086 [main] INFO  org.apache.logging.log4j.Logger - Successfully deserialized neural network from 'test.bin'
+17:12:05.086 [main] INFO  org.apache.logging.log4j.Logger - [0.13801388, 0.040200166, 0.040200166]
+17:37:04.715 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+17:37:04.726 [main] INFO  org.apache.logging.log4j.Logger - [0.602831, 0.6304441, 0.6304441]
+17:37:04.733 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint0.bin'
+17:37:04.733 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint0.bin' (size: 0 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint0.bin')
+17:37:04.734 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint50.bin'
+17:37:04.734 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint50.bin' (size: 0 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint50.bin')
+17:37:04.735 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint100.bin'
+17:37:04.735 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint100.bin' (size: 0 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint100.bin')
+17:37:04.736 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint150.bin'
+17:37:04.736 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint150.bin' (size: 0 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint150.bin')
+17:37:04.736 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint200.bin'
+17:37:04.737 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint200.bin' (size: 0 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint200.bin')
+17:37:04.737 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint250.bin'
+17:37:04.737 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint250.bin' (size: 0 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint250.bin')
+17:37:04.738 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint300.bin'
+17:37:04.738 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint300.bin' (size: 0 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint300.bin')
+17:37:04.739 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint350.bin'
+17:37:04.739 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint350.bin' (size: 0 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint350.bin')
+17:37:04.740 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint400.bin'
+17:37:04.740 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint400.bin' (size: 0 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint400.bin')
+17:37:04.741 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint450.bin'
+17:37:04.741 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint450.bin' (size: 0 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint450.bin')
+17:37:04.744 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint500.bin'
+17:37:04.745 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint500.bin' (size: 0 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint500.bin')
+17:37:04.745 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint550.bin'
+17:37:04.746 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint550.bin' (size: 0 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint550.bin')
+17:37:04.746 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint600.bin'
+17:37:04.746 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint600.bin' (size: 0 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint600.bin')
+17:37:04.747 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint650.bin'
+17:37:04.747 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint650.bin' (size: 0 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint650.bin')
+17:37:04.748 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint700.bin'
+17:37:04.748 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint700.bin' (size: 0 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint700.bin')
+17:37:04.748 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint750.bin'
+17:37:04.749 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint750.bin' (size: 0 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint750.bin')
+17:37:04.749 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint800.bin'
+17:37:04.750 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint800.bin' (size: 0 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint800.bin')
+17:37:04.750 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint850.bin'
+17:37:04.751 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint850.bin' (size: 0 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint850.bin')
+17:37:04.751 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint900.bin'
+17:37:04.752 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint900.bin' (size: 0 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint900.bin')
+17:37:04.752 [main] ERROR org.apache.logging.log4j.Logger - Could not create ObjectOutputStream for file 'models/test/checkpointstest_checkpoint950.bin'
+17:37:04.752 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint950.bin' (size: 0 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint950.bin')
+17:37:04.753 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+17:37:04.755 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+17:37:04.923 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+17:37:04.990 [main] INFO  org.apache.logging.log4j.Logger - Successfully deserialized neural network from 'test.bin'
+17:37:04.991 [main] INFO  org.apache.logging.log4j.Logger - [0.602831, 0.6304441, 0.6304441]
+17:53:06.005 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+17:53:06.016 [main] INFO  org.apache.logging.log4j.Logger - [0.3916789, 0.36231446, 0.36231446]
+17:53:06.187 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint0.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint0.bin')
+17:53:06.346 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint50.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint50.bin')
+17:53:06.514 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint100.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint100.bin')
+17:53:06.692 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint150.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint150.bin')
+17:53:06.842 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint200.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint200.bin')
+17:53:07.065 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint250.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint250.bin')
+17:53:07.235 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint300.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint300.bin')
+17:53:07.410 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint350.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint350.bin')
+17:53:07.580 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint400.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint400.bin')
+17:53:07.776 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint450.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint450.bin')
+17:53:07.969 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint500.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint500.bin')
+17:53:08.136 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint550.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint550.bin')
+17:53:08.341 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint600.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint600.bin')
+17:53:08.551 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint650.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint650.bin')
+17:53:08.796 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint700.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint700.bin')
+17:53:09.058 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint750.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint750.bin')
+17:53:09.253 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint800.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint800.bin')
+17:53:09.410 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint850.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint850.bin')
+17:53:09.617 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint900.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint900.bin')
+17:53:09.865 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpointstest_checkpoint950.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpointstest_checkpoint950.bin')
+17:53:09.866 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+17:53:09.869 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+17:53:10.146 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+17:53:10.213 [main] INFO  org.apache.logging.log4j.Logger - Successfully deserialized neural network from 'test.bin'
+17:53:10.214 [main] INFO  org.apache.logging.log4j.Logger - [0.3916789, 0.36231446, 0.36231446]
+17:55:06.250 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+17:55:06.265 [main] INFO  org.apache.logging.log4j.Logger - [0.55483055, 0.5694912, 0.5694912]
+17:55:06.480 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0.bin')
+17:55:06.678 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint50.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint50.bin')
+17:55:06.822 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint100.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint100.bin')
+17:55:06.972 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint150.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint150.bin')
+17:55:07.145 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint200.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint200.bin')
+17:55:07.307 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint250.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint250.bin')
+17:55:07.456 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint300.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint300.bin')
+17:55:07.653 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint350.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint350.bin')
+17:55:07.793 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint400.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint400.bin')
+17:55:07.942 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint450.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint450.bin')
+17:55:08.147 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint500.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint500.bin')
+17:55:08.370 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint550.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint550.bin')
+17:55:08.513 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint600.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint600.bin')
+17:55:08.707 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint650.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint650.bin')
+17:55:08.894 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint700.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint700.bin')
+17:55:09.156 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint750.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint750.bin')
+17:55:09.379 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint800.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint800.bin')
+17:55:09.587 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint850.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint850.bin')
+17:55:09.733 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint900.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint900.bin')
+17:55:09.881 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint950.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint950.bin')
+17:55:09.882 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+17:55:09.884 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+17:55:10.137 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+17:55:10.182 [main] INFO  org.apache.logging.log4j.Logger - Successfully deserialized neural network from 'test.bin'
+17:55:10.182 [main] INFO  org.apache.logging.log4j.Logger - [0.55483055, 0.5694912, 0.5694912]
+18:05:48.248 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+18:05:48.260 [main] INFO  org.apache.logging.log4j.Logger - [0.7547051, 0.82330006, 0.82330006]
+18:05:48.481 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0000.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0000.bin')
+18:05:48.604 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0050.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0050.bin')
+18:05:48.731 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0100.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0100.bin')
+18:05:48.856 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0150.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0150.bin')
+18:05:48.982 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0200.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0200.bin')
+18:05:49.158 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0250.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0250.bin')
+18:05:49.326 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0300.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0300.bin')
+18:05:49.477 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0350.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0350.bin')
+18:05:49.664 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0400.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0400.bin')
+18:05:49.835 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0450.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0450.bin')
+18:05:49.961 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0500.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0500.bin')
+18:05:50.115 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0550.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0550.bin')
+18:05:50.269 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0600.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0600.bin')
+18:05:50.386 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0650.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0650.bin')
+18:05:50.505 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0700.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0700.bin')
+18:05:50.665 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0750.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0750.bin')
+18:05:50.781 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0800.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0800.bin')
+18:05:50.907 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0850.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0850.bin')
+18:05:51.115 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0900.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0900.bin')
+18:05:51.287 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0950.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0950.bin')
+18:05:51.288 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+18:05:51.292 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+18:05:51.513 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+18:05:51.556 [main] INFO  org.apache.logging.log4j.Logger - Successfully deserialized neural network from 'test.bin'
+18:05:51.556 [main] INFO  org.apache.logging.log4j.Logger - [0.7547051, 0.82330006, 0.82330006]
+18:09:43.900 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+18:09:43.915 [main] INFO  org.apache.logging.log4j.Logger - [0.07213379, -0.04345709, -0.04345709]
+18:09:44.121 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0000.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0000.bin')
+18:09:44.321 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0050.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0050.bin')
+18:09:44.518 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0100.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0100.bin')
+18:09:44.667 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0150.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0150.bin')
+18:09:44.842 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0200.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0200.bin')
+18:09:44.987 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0250.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0250.bin')
+18:09:45.164 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0300.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0300.bin')
+18:09:45.316 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0350.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0350.bin')
+18:09:45.511 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0400.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0400.bin')
+18:09:45.730 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0450.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0450.bin')
+18:09:45.921 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0500.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0500.bin')
+18:09:46.153 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0550.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0550.bin')
+18:09:46.361 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0600.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0600.bin')
+18:09:46.564 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0650.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0650.bin')
+18:09:46.727 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0700.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0700.bin')
+18:09:46.870 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0750.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0750.bin')
+18:09:46.999 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0800.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0800.bin')
+18:09:47.129 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0850.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0850.bin')
+18:09:47.264 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0900.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0900.bin')
+18:09:47.457 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0950.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0950.bin')
+18:09:47.459 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+18:09:47.463 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+18:09:47.742 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+18:09:47.825 [main] INFO  org.apache.logging.log4j.Logger - Successfully deserialized neural network from 'test.bin'
+18:09:47.825 [main] INFO  org.apache.logging.log4j.Logger - [0.07213379, -0.04345709, -0.04345709]
+18:11:15.410 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+18:11:15.424 [main] INFO  org.apache.logging.log4j.Logger - [1.0109408, 1.1486787, 1.1486787]
+18:11:15.432 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'models/test/checkpoints/test_checkpoint0000.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0000.bin.bak'
+18:11:15.677 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0000.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0000.bin')
+18:11:15.678 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'models/test/checkpoints/test_checkpoint0050.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0050.bin.bak'
+18:11:15.916 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0050.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0050.bin')
+18:11:15.918 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'models/test/checkpoints/test_checkpoint0100.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0100.bin.bak'
+18:11:16.127 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0100.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0100.bin')
+18:11:16.128 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'models/test/checkpoints/test_checkpoint0150.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0150.bin.bak'
+18:11:16.414 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0150.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0150.bin')
+18:11:16.416 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'models/test/checkpoints/test_checkpoint0200.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0200.bin.bak'
+18:11:16.624 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0200.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0200.bin')
+18:11:16.626 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'models/test/checkpoints/test_checkpoint0250.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0250.bin.bak'
+18:11:16.823 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0250.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0250.bin')
+18:11:16.824 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'models/test/checkpoints/test_checkpoint0300.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0300.bin.bak'
+18:11:17.051 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0300.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0300.bin')
+18:11:17.053 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'models/test/checkpoints/test_checkpoint0350.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0350.bin.bak'
+18:11:17.261 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0350.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0350.bin')
+18:11:17.262 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'models/test/checkpoints/test_checkpoint0400.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0400.bin.bak'
+18:11:17.411 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0400.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0400.bin')
+18:11:17.411 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'models/test/checkpoints/test_checkpoint0450.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0450.bin.bak'
+18:11:17.575 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0450.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0450.bin')
+18:11:17.576 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'models/test/checkpoints/test_checkpoint0500.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0500.bin.bak'
+18:11:17.743 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0500.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0500.bin')
+18:11:17.744 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'models/test/checkpoints/test_checkpoint0550.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0550.bin.bak'
+18:11:17.962 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0550.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0550.bin')
+18:11:17.964 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'models/test/checkpoints/test_checkpoint0600.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0600.bin.bak'
+18:11:18.169 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0600.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0600.bin')
+18:11:18.171 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'models/test/checkpoints/test_checkpoint0650.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0650.bin.bak'
+18:11:18.418 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0650.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0650.bin')
+18:11:18.420 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'models/test/checkpoints/test_checkpoint0700.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0700.bin.bak'
+18:11:18.605 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0700.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0700.bin')
+18:11:18.607 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'models/test/checkpoints/test_checkpoint0750.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0750.bin.bak'
+18:11:18.809 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0750.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0750.bin')
+18:11:18.810 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'models/test/checkpoints/test_checkpoint0800.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0800.bin.bak'
+18:11:19.055 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0800.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0800.bin')
+18:11:19.056 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'models/test/checkpoints/test_checkpoint0850.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0850.bin.bak'
+18:11:19.254 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0850.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0850.bin')
+18:11:19.256 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'models/test/checkpoints/test_checkpoint0900.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0900.bin.bak'
+18:11:19.414 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0900.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0900.bin')
+18:11:19.415 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'models/test/checkpoints/test_checkpoint0950.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0950.bin.bak'
+18:11:19.594 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'models/test/checkpoints/test_checkpoint0950.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/models/test/checkpoints/test_checkpoint0950.bin')
+18:11:19.595 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+18:11:19.599 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+18:11:19.882 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 55013 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+18:11:19.962 [main] INFO  org.apache.logging.log4j.Logger - Successfully deserialized neural network from 'test.bin'
+18:11:19.963 [main] INFO  org.apache.logging.log4j.Logger - [1.0109408, 1.1486787, 1.1486787]
