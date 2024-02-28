@@ -2,7 +2,7 @@
 
  -[X] Add way to add noise
  -[X] Add saving and loading of weights and biases
- -[ ] Add training framework
+ -[X] Add training framework
  -[ ] Add Test suite
  -[ ] Add evolutionary algorithm
  -[ ] Add backpropogation
