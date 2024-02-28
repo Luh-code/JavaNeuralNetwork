@@ -1,8 +1,11 @@
 package luh.jnn.nn;
 
+import java.io.Serializable;
+
 import luh.jnn.Logging;
 
-public class Synapse {
+public class Synapse implements Serializable {
+  private static final long serialVersionUID = 1L;
   private Neuron input;
   private float weight;
   private Neuron output;

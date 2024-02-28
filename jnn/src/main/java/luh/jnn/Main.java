@@ -1,10 +1,13 @@
 package luh.jnn;
 
+import java.io.File;
 import java.util.Arrays;
 import java.util.Random;
 
 import luh.jnn.console.Arguments;
 import luh.jnn.nn.*;
+import luh.jnn.serialization.NNSaver;
+import luh.jnn.serialization.NeuralNetworkOOSSerializer;
 
 public class Main {
   
@@ -38,5 +41,8 @@ public class Main {
     evaluator.setConditioning(conditioning);
     evaluator.fullEvaluation();
     Logging.logger.info(Arrays.toString(evaluator.getResult()));
+
+    NNSaver saver = new NNSaver(new NeuralNetworkOOSSerializer());
+    saver.saveToFile(new File("test.bin"), nn);
   }
 }

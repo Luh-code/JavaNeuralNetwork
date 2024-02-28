@@ -75,3 +75,76 @@
 20:31:42.332 [main] INFO  org.apache.logging.log4j.Logger - [29.767866, 37.53062, 37.53062]
 09:55:08.038 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
 09:55:08.114 [main] INFO  org.apache.logging.log4j.Logger - [32.531975, 41.040607, 41.040607]
+13:37:22.404 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:37:22.418 [main] INFO  org.apache.logging.log4j.Logger - [71.608, 90.66096, 90.66096]
+13:38:17.251 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:38:17.262 [main] INFO  org.apache.logging.log4j.Logger - [-5.345653, -7.057972, -7.057972]
+13:38:17.264 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' overridden; backup saved at 'test.bin'
+13:38:25.336 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:38:25.348 [main] INFO  org.apache.logging.log4j.Logger - [99.65629, 126.277824, 126.277824]
+13:38:25.351 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+13:38:25.353 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' overridden; backup saved at 'test.bin'
+13:38:32.166 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:38:32.176 [main] INFO  org.apache.logging.log4j.Logger - [16.63304, 20.851479, 20.851479]
+13:38:32.179 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' overridden; backup saved at 'test.bin'
+13:39:15.060 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:39:15.074 [main] INFO  org.apache.logging.log4j.Logger - [71.16303, 90.0959, 90.0959]
+13:39:15.078 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' overridden; backup saved at 'test.bin'
+13:42:26.675 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:42:26.687 [main] INFO  org.apache.logging.log4j.Logger - [42.28357, 53.42358, 53.42358]
+13:42:26.690 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+13:42:26.691 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' overridden; backup saved at 'test.bin'
+13:42:26.731 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 0mb, name:)
+13:43:36.226 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:43:36.240 [main] INFO  org.apache.logging.log4j.Logger - [0.7136246, 0.6363487, 0.6363487]
+13:43:36.243 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+13:43:36.245 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' overridden; backup saved at 'test.bin'
+13:43:36.283 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383bytes, name:)
+13:44:04.094 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:44:04.106 [main] INFO  org.apache.logging.log4j.Logger - [32.3404, 40.797337, 40.797337]
+13:44:04.110 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+13:44:04.112 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' overridden; backup saved at 'test.bin'
+13:44:04.157 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, name: test.bin)
+13:45:07.233 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:45:07.243 [main] INFO  org.apache.logging.log4j.Logger - [47.27312, 59.759518, 59.759518]
+13:45:07.245 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+13:45:07.246 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' overridden; backup saved at 'test.bin'
+13:45:07.285 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+13:46:03.871 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:46:03.887 [main] INFO  org.apache.logging.log4j.Logger - [-130.13646, -165.52248, -165.52248]
+13:46:03.891 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+13:46:03.893 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' truncated; backup saved at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+13:46:03.943 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+13:47:11.175 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:47:11.187 [main] INFO  org.apache.logging.log4j.Logger - [70.59839, 89.37891, 89.37891]
+13:47:11.231 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+13:47:22.198 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:47:22.207 [main] INFO  org.apache.logging.log4j.Logger - [-23.726753, -30.399052, -30.399052]
+13:47:22.210 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' truncated; backup saved at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+13:48:03.950 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:48:03.961 [main] INFO  org.apache.logging.log4j.Logger - [-38.053665, -48.591953, -48.591953]
+13:48:04.003 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+13:48:22.591 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:48:22.601 [main] INFO  org.apache.logging.log4j.Logger - [-12.002612, -15.511253, -15.511253]
+13:48:22.641 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+13:48:26.407 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:48:26.419 [main] INFO  org.apache.logging.log4j.Logger - [47.071224, 59.50314, 59.50314]
+13:48:26.422 [main] INFO  org.apache.logging.log4j.Logger - The file 'test.bin' truncated; backup saved at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+13:48:26.468 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+13:50:13.747 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:50:13.759 [main] INFO  org.apache.logging.log4j.Logger - [42.94202, 54.25971, 54.25971]
+13:50:13.762 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+13:50:13.763 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+13:50:13.809 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+13:50:48.895 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:50:48.908 [main] INFO  org.apache.logging.log4j.Logger - [-64.2137, -81.81104, -81.81104]
+13:50:48.961 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+13:50:53.606 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:50:53.618 [main] INFO  org.apache.logging.log4j.Logger - [-81.89371, -104.26185, -104.26185]
+13:50:53.620 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+13:50:53.654 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')
+13:51:26.832 [main] INFO  org.apache.logging.log4j.Logger - Logger config loaded
+13:51:26.841 [main] INFO  org.apache.logging.log4j.Logger - [142.4526, 180.62234, 180.62234]
+13:51:26.844 [main] INFO  org.apache.logging.log4j.Logger - Truncating old temp file
+13:51:26.845 [main] INFO  org.apache.logging.log4j.Logger - Made backup of 'test.bin' at '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin.bak'
+13:51:26.882 [main] INFO  org.apache.logging.log4j.Logger - Successfully serialized neural network to 'test.bin' (size: 4383 bytes, path: '/media/para/Projects/JavaNeuralNetwork/jnn/test.bin')

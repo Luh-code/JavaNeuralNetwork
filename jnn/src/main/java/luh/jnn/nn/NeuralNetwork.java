@@ -1,6 +1,9 @@
 package luh.jnn.nn;
 
-public class NeuralNetwork {
+import java.io.Serializable;
+
+public class NeuralNetwork implements Serializable {
+  private static final long serialVersionUID = 1L;
   private Layer[] layers;
 
   public NeuralNetwork(Layer[] layers) {

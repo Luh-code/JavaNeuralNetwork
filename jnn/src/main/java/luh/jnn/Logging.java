@@ -10,7 +10,6 @@ public class Logging {
   public static final Logger logger = LogManager.getLogger(Logger.class);
 
   public static void setupLogger() {
-    System.out.println("static block logging");
     LoggerContext context = (LoggerContext) LogManager.getContext(false);
     File file = new File("./../log4j2.xml");
     if (!file.exists()) {

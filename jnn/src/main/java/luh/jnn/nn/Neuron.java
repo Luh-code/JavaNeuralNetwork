@@ -1,9 +1,12 @@
 package luh.jnn.nn;
 
-public class Neuron {
+import java.io.Serializable;
+
+public class Neuron implements Serializable {
+  private static final long serialVersionUID = 1L;
   private Synapse[] inputSynapses;
   private Synapse[] outputSynapses;
-  private float z;
+  transient private float z;
   
   public Neuron(Synapse[] inputSynapses) {
     this.inputSynapses = inputSynapses;
