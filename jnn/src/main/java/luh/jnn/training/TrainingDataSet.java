@@ -2,7 +2,7 @@ package luh.jnn.training;
 
 public class TrainingDataSet {
   private TrainingData[] trainingData;
-  private int i = -1;
+  private int i = 0;
 
   public TrainingDataSet(TrainingData[] trainingData) {
     this.trainingData = trainingData;
@@ -13,7 +13,7 @@ public class TrainingDataSet {
   }
 
   public TrainingData getNextData() {
-    return this.trainingData[i++%trainingData.length];
+    return this.trainingData[(i++)%trainingData.length];
   }
 
   public int dataCount() {

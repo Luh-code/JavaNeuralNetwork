@@ -26,8 +26,6 @@ public class NNTrainer {
   }
   
   private void createCheckpointLocation() {
-    Path directoryPath = Paths.get(this.config.getCheckpointLocation().getPath());
-
     if (!this.config.getCheckpointLocation().exists()) {
       try {
         Files.createDirectories(this.config.getCheckpointLocation().toPath());

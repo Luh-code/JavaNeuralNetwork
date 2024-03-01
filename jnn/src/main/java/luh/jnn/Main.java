@@ -27,7 +27,7 @@ public class Main {
     Layer[] layers = new Layer[] {
       new Layer(6, 1f),
       new Layer(16, 1f),
-      new Layer(8, 1f),
+      new Layer(16, 1f),
       new Layer(3, 1f)
     };
     NeuralNetwork nn = new NeuralNetwork(layers);
@@ -50,9 +50,10 @@ public class Main {
     evaluator.fullEvaluation();
     Logging.logger.info(Arrays.toString(evaluator.getResult()));
 
-    NNTrainer trainer = new NNTrainer(new EvolutionaryProcedure(100, 0.1f), nn, new NNSaver(new NeuralNetworkOOSSerializer()));
+    NNTrainer trainer = new NNTrainer(new EvolutionaryProcedure(200, 0.2f), nn, new NNSaver(new NeuralNetworkOOSSerializer()));
     trainer.train(new TrainingConfig(new TrainingDataSet(new TrainingData[] {
-      new TrainingData(new float[] {0.12f, 0.88f, 0.94f, 0.52f, 0.01f, 0.04f}, new float[] {1.0f, 0.4f, 0.2f}),
+      new TrainingData(new float[] {1.0f, 0.84f, 0.68f, 0.49f, 0.33f, 0.16f}, new float[] {1.0f, 0.5f, 0.25f}),
+      new TrainingData(new float[] {0.16f, 0.33f, 0.49f, 0.68f, 0.84f, 1.0f}, new float[] {0.25f, 0.5f, 1.0f}),
     }), 1000, 50, new File("models/test/checkpoints/"), "test"));
     nn = trainer.getTrainedNeuralNetwork();
 
@@ -63,6 +64,11 @@ public class Main {
     NeuralNetwork deserializedNN = loader.loadFromFile(new File("test.bin"));
 
     NNEvaluator evaluator2 = new NNEvaluator(deserializedNN);
+    evaluator2.setConditioning(conditioning);
+    evaluator2.fullEvaluation();
+    Logging.logger.info(Arrays.toString(evaluator2.getResult()));
+    conditioning = new float[] {0.16f, 0.33f, 0.49f, 0.68f, 0.84f, 1.0f};
+    deserializedNN.clear();
     evaluator2.setConditioning(conditioning);
     evaluator2.fullEvaluation();
     Logging.logger.info(Arrays.toString(evaluator2.getResult()));
