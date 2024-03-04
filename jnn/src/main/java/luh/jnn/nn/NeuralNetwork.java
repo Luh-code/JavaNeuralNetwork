@@ -12,7 +12,7 @@ public class NeuralNetwork implements Serializable, Cloneable {
 
   public void initalizeDenseNeuralNetwork() {
     for (int i = 0; i < getLayerCount()-1; ++i) {
-      createDenseSynapticConnection(i, i+1, 1.0f);
+      createDenseSynapticConnection(i, i+1, .1f);
     }
   }
 
@@ -45,9 +45,6 @@ public class NeuralNetwork implements Serializable, Cloneable {
   public void clear() {
     for (Layer layer : layers) {
       float[] newTensor = new float[layer.getTensorSize()];
-      for (int i = 0; i < newTensor.length; ++i) {
-        newTensor[i] = 0;
-      }
       layer.setTensor(newTensor);
     }
   }

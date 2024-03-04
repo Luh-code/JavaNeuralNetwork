@@ -51,7 +51,7 @@ public class TrainingConfig {
   public void setModelName(String modelName) {
     this.modelName = modelName;
   }
-  public TrainingDataSet getTrainingData() {
+  public TrainingDataSet getTrainingDataSet() {
     return trainingData;
   }
 

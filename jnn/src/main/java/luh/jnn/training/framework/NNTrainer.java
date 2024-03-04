@@ -1,11 +1,8 @@
 package luh.jnn.training.framework;
 
 import java.io.File;
-import java.io.IOError;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 
 import luh.jnn.Logging;
 import luh.jnn.nn.NeuralNetwork;
@@ -49,7 +46,8 @@ public class NNTrainer {
   private void iteration() {
     Logging.logger.info(String.format("Iteration %d", this.currentIteration));
     this.nn = this.proc.train(this.nn, config);
-    saveIfDistanceReached();
+    this.nn.clear();
+    //saveIfDistanceReached();
   }
 
   public void train(TrainingConfig config) {
@@ -64,7 +62,7 @@ public class NNTrainer {
       return;
     }
 
-    if (this.config.getTrainingData().dataCount() == 0) {
+    if (this.config.getTrainingDataSet().dataCount() == 0) {
       Logging.logger.error("Need at least one piece of training data");
       return;
     }

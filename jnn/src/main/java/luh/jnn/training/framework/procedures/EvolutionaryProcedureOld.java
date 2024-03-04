@@ -1,19 +1,15 @@
 package luh.jnn.training.framework.procedures;
 
-import java.util.Random;
-
 import luh.jnn.Logging;
-import luh.jnn.nn.Layer;
-import luh.jnn.nn.NNEvaluator;
-import luh.jnn.nn.NeuralNetwork;
-import luh.jnn.nn.Neuron;
-import luh.jnn.nn.Synapse;
+import luh.jnn.nn.*;
 import luh.jnn.training.TrainingData;
 import luh.jnn.training.framework.TrainingConfig;
 import luh.jnn.training.framework.procedures.configuration.EvolutionaryConfiguration;
 import luh.jnn.training.framework.procedures.configuration.ProcedureConfiguration;
 
-public class EvolutionaryProcedure implements TrainingProcedure {
+import java.util.Random;
+
+public class EvolutionaryProcedureOld implements TrainingProcedure {
   private NeuralNetwork nn;
   private NeuralNetwork best;
   private float[] bestTensor;
@@ -23,51 +19,32 @@ public class EvolutionaryProcedure implements TrainingProcedure {
   private TrainingData data;
   private Random rnd;
 
-  private NeuralNetwork mutation;
-
   private EvolutionaryConfiguration procCon;
 
-  public EvolutionaryProcedure() {
+  public EvolutionaryProcedureOld() {
   }
 
-  @Override
-  public boolean compatibleConfiguration(ProcedureConfiguration procCon) {
-    return procCon instanceof EvolutionaryConfiguration;
-  }
+  private NeuralNetwork introduceNoise() {
+    NeuralNetwork current = nn.clone();
 
-  @Override
-  public void init(ProcedureConfiguration procCon) {
-    if (!compatibleConfiguration(procCon)) {
-      Logging.logger.fatal("EvolutionaryProcedure needs to be initalized with a EvolutionaryConfiguration");
-      System.exit(1);
-    }
 
-    this.procCon = (EvolutionaryConfiguration) procCon;
-  }
-
-  private void introduceNoise() {
-    for (int i = 0; i < mutation.getLayerCount(); i++) {
-      Layer currentLayer = mutation.getLayer(i);
-      for (int j = 0; j < currentLayer.getTensorSize(); j++) {
-        currentLayer.getBiases()[j] =
-          best.getLayer(i).getBiases()[j]+rnd.nextFloat(
-            -this.procCon.getLearningRate()/2f, this.procCon.getLearningRate()/2f
-          );
-      }
-      //currentLayer.setBias(best.getLayer(i).getBias()+rnd.nextFloat(
-      //  -this.procCon.getLearningRate()/2f, this.procCon.getLearningRate()/2f));
+    for (int i = 0; i < current.getLayerCount(); i++) {
+      Layer currentLayer = current.getLayer(i);
+      currentLayer.setBias(currentLayer.getBias()+rnd.nextFloat(
+        -this.procCon.getLearningRate()/2f, this.procCon.getLearningRate()/2f));
 
       for (int j = 0; j < currentLayer.getTensorSize(); j++) {
         Neuron currentNeuron = currentLayer.getNeuron(j);
         if (currentNeuron.getOutputSynapses() == null) break;
         for (int k = 0; k < currentNeuron.getOutputSynapses().length; k++) {
           Synapse currentSynapse = currentNeuron.getOutputSynapses()[k];
-          currentSynapse.setWeight(
-            best.getLayer(i).getNeuron(j).getOutputSynapses()[k].getWeight()+rnd.nextFloat(
-              -this.procCon.getLearningRate()/2f, this.procCon.getLearningRate()/2f));
+          currentSynapse.setWeight(currentSynapse.getWeight()+rnd.nextFloat(
+            -this.procCon.getLearningRate()/2f, this.procCon.getLearningRate()/2f));
         }
       }
     }
+
+    return current;
   }
 
   private float calculateError(float[] tensor) {
@@ -82,9 +59,24 @@ public class EvolutionaryProcedure implements TrainingProcedure {
     return error;
   }
 
-	@Override
-	public NeuralNetwork train(NeuralNetwork nn, TrainingConfig config) {
-    this.nn = nn.clone();
+  @Override
+  public boolean compatibleConfiguration(ProcedureConfiguration procCon) {
+    return procCon instanceof EvolutionaryConfiguration;
+  }
+
+  @Override
+  public void init(ProcedureConfiguration procCon) {
+    if (!compatibleConfiguration(procCon)) {
+      Logging.logger.fatal("EvolutionaryProcedure needs to be initialized with a EvolutionaryConfiguration");
+      System.exit(1);
+    }
+
+    this.procCon = (EvolutionaryConfiguration) procCon;
+  }
+
+  @Override
+  public NeuralNetwork train(NeuralNetwork nn, TrainingConfig config) {
+    this.nn = nn;
     this.config = config;
     this.rnd = new Random();
     this.best = nn.clone();
@@ -100,33 +92,28 @@ public class EvolutionaryProcedure implements TrainingProcedure {
 
     this.bestError = calculateError(this.bestTensor);
 
-    this.mutation = nn.clone();
-
-
     for (int i = 0; i < this.procCon.getInstances(); i++) {
-      //NeuralNetwork current = introduceNoise();
-      introduceNoise();
-      this.evaluator = new NNEvaluator(mutation);
+      NeuralNetwork current = introduceNoise();
+      this.evaluator = new NNEvaluator(current);
       this.evaluator.setConditioning(this.data.getInput());
       this.evaluator.fullEvaluation();
       float[] currentTensor = this.evaluator.getResult();
-      this.mutation.clear();
 
       float error = calculateError(currentTensor);
 
       // Logging.logger.info(String.format("Accuracy: %f (error: %f)", 1.0f-error, error));
 
       if (error < this.bestError) {
-        Logging.logger.info(String.format("Found model with higher accuracy (Accuracy: %.6f/%.4f%% -> Error: %.6f/%.4f%%",
-              1.0f-error, (1.0f-error)*100.0f,
-              error, error*100.0f));
-        this.best = mutation.clone();
-        this.bestTensor = currentTensor.clone();
+        Logging.logger.info(String.format("Found model with higher accuracy (Accuracy: %f.6/%f.4%% -> Error: %f.6/%f.4%%",
+          1.0f-error, (1.0f-error)*100.0f,
+          error, error*100.0f));
+        this.best = current;
+        this.bestTensor = currentTensor;
         this.bestError = error;
         this.best.clear();
       }
     }
 
-    return this.best.clone();
-	}
+    return this.best;
+  }
 }

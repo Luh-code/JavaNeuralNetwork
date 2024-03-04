@@ -20,7 +20,7 @@ public class NNEvaluator {
   public void fullEvaluation() {
     applyConditioning();
     for (int i = 1; i < nn.getLayerCount(); ++i) {
-      evalutateLayer(i);
+      evaluateLayer(i);
     }
     readOutputTensor();
   }
@@ -39,8 +39,8 @@ public class NNEvaluator {
   }
 
   private void readOutputTensor() {
-    this.result = nn.getLayer(nn.getLayerCount()-1).getTensor();
-    normalizeOutputTensor();
+    this.result = nn.getLayer(nn.getLayerCount()-1).getTensor().clone();
+    //normalizeOutputTensor();
   }
 
   private void applyConditioning() {
@@ -62,13 +62,16 @@ public class NNEvaluator {
     input.setTensor(conditioning);
   }
 
-  private void evalutateLayer(int layerIndex) {
+  private void evaluateLayer(int layerIndex) {
     Layer layer = nn.getLayer(layerIndex);
+    int ni = 0;
     for (Neuron n : layer.getNeurons()) {
       for (Synapse s : n.getInputSynapses()) {
         s.propogateValue();
       }
-      n.setZ(n.getZ()+layer.getBias());
+      n.setZ(
+        layer.getActivationFunction().getFunction().apply(n.getZ()+layer.getBiases()[ni]));
+      ni++;
     }
   }
 

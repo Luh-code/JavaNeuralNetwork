@@ -13,7 +13,10 @@ import luh.jnn.training.TrainingData;
 import luh.jnn.training.TrainingDataSet;
 import luh.jnn.training.framework.NNTrainer;
 import luh.jnn.training.framework.TrainingConfig;
+import luh.jnn.training.framework.optimizers.GradientDescent;
+import luh.jnn.training.framework.procedures.BackpropagationProcedure;
 import luh.jnn.training.framework.procedures.EvolutionaryProcedure;
+import luh.jnn.training.framework.procedures.configuration.BackpropagationConfiguration;
 import luh.jnn.training.framework.procedures.configuration.EvolutionaryConfiguration;
 
 public class Main {
@@ -25,10 +28,10 @@ public class Main {
     a.processArguments();
 
     Layer[] layers = new Layer[] {
-      new Layer(6, 1f),
-      new Layer(16, 1f),
-      new Layer(16, 1f),
-      new Layer(3, 1f)
+      new Layer(6, 0.0f, ActivationFunction.Sigmoid),
+      new Layer(16, 0.0f, ActivationFunction.Sigmoid),
+      new Layer(16, 0.0f, ActivationFunction.Sigmoid),
+      new Layer(3, 0.0f, ActivationFunction.Sigmoid)
     };
     NeuralNetwork nn = new NeuralNetwork(layers);
     nn.initalizeDenseNeuralNetwork();
@@ -55,7 +58,12 @@ public class Main {
       new TrainingData(new float[] {1.0f, 0.84f, 0.68f, 0.49f, 0.33f, 0.16f}, new float[] {1.0f, 0.5f, 0.25f}),
       // new TrainingData(new float[] {0.16f, 0.33f, 0.49f, 0.68f, 0.84f, 1.0f}, new float[] {0.25f, 0.5f, 1.0f}),
     }), 2000, 50, new File("models/test/checkpoints/"), "test"
-      , new EvolutionaryConfiguration(200, true, 0.2f)));
+      , new EvolutionaryConfiguration(1000, true, 0.1f)));
+//    NNTrainer trainer = new NNTrainer (new BackpropagationProcedure(), nn, new NNSaver(new NeuralNetworkOOSSerializer()));
+//    trainer.train(new TrainingConfig(new TrainingDataSet(new TrainingData[] {
+//      new TrainingData(new float[] {1.0f, 0.84f, 0.68f, 0.49f, 0.33f, 0.16f}, new float[] {1.0f, 0.5f, 0.25f}),
+//    }), 1000, 50, new File("models/test2/checkpoints/"), "test2",
+//      new BackpropagationConfiguration(CostFunction.Quadratic, new GradientDescent(0.2f))));
     nn = trainer.getTrainedNeuralNetwork();
 
     NNSaver saver = new NNSaver(new NeuralNetworkOOSSerializer());
@@ -64,12 +72,12 @@ public class Main {
     NNLoader loader = new NNLoader(new NeuralNetworkOISDeserializer());
     NeuralNetwork deserializedNN = loader.loadFromFile(new File("test.bin"));
 
-    NNEvaluator evaluator2 = new NNEvaluator(deserializedNN);
+    NNEvaluator evaluator2 = new NNEvaluator(nn);
     evaluator2.setConditioning(conditioning);
     evaluator2.fullEvaluation();
     Logging.logger.info(Arrays.toString(evaluator2.getResult()));
     conditioning = new float[] {0.16f, 0.33f, 0.49f, 0.68f, 0.84f, 1.0f};
-    deserializedNN.clear();
+    //deserializedNN.clear();
     evaluator2.setConditioning(conditioning);
     evaluator2.fullEvaluation();
     Logging.logger.info(Arrays.toString(evaluator2.getResult()));

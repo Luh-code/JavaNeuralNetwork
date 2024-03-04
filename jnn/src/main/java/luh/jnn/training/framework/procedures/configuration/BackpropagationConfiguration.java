@@ -1,31 +1,35 @@
 package luh.jnn.training.framework.procedures.configuration;
 
+import luh.jnn.nn.CostFunction;
+import luh.jnn.training.framework.optimizers.Optimizer;
+
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
 public class BackpropagationConfiguration implements ProcedureConfiguration {
-	private BiFunction<Float[], Float[], Float> cost;
-	public static final BiFunction<Float[], Float[], Float> mse = (s, y) -> {
-		float res = 0.0f;
+	private CostFunction cost;
 
-		for (int i = 0; i < s.length; i++) {
-			res += (float) Math.pow(y[i]-s[i], 2);
-		}
 
-		res *= 1.0f/s.length;
+	private Optimizer optimizer;
 
-		return res;
-	};
-
-	public BackpropagationConfiguration(BiFunction<Float[], Float[], Float> cost) {
+	public BackpropagationConfiguration(CostFunction cost, Optimizer optimizer) {
 		this.cost = cost;
+		this.optimizer = optimizer;
 	}
 
-	public BiFunction<Float[], Float[], Float> getCost() {
+	public CostFunction getCost() {
 		return cost;
 	}
 
-	public void setCost(BiFunction<Float[], Float[], Float> cost) {
+	public void setCost(CostFunction cost) {
 		this.cost = cost;
+	}
+
+	public Optimizer getOptimizer() {
+		return optimizer;
+	}
+
+	public void setOptimizer(Optimizer optimizer) {
+		this.optimizer = optimizer;
 	}
 }
