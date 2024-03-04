@@ -2,7 +2,6 @@ package luh.jnn;
 
 import java.io.File;
 import java.util.Arrays;
-import java.util.Random;
 
 import luh.jnn.console.Arguments;
 import luh.jnn.nn.*;
@@ -15,7 +14,7 @@ import luh.jnn.training.TrainingDataSet;
 import luh.jnn.training.framework.NNTrainer;
 import luh.jnn.training.framework.TrainingConfig;
 import luh.jnn.training.framework.procedures.EvolutionaryProcedure;
-import luh.jnn.training.framework.procedures.configuration.EvolutionaryProcedureConfiguration;
+import luh.jnn.training.framework.procedures.configuration.EvolutionaryConfiguration;
 
 public class Main {
   
@@ -56,7 +55,7 @@ public class Main {
       new TrainingData(new float[] {1.0f, 0.84f, 0.68f, 0.49f, 0.33f, 0.16f}, new float[] {1.0f, 0.5f, 0.25f}),
       // new TrainingData(new float[] {0.16f, 0.33f, 0.49f, 0.68f, 0.84f, 1.0f}, new float[] {0.25f, 0.5f, 1.0f}),
     }), 2000, 50, new File("models/test/checkpoints/"), "test"
-      , new EvolutionaryProcedureConfiguration(200, true, 0.2f)));
+      , new EvolutionaryConfiguration(200, true, 0.2f)));
     nn = trainer.getTrainedNeuralNetwork();
 
     NNSaver saver = new NNSaver(new NeuralNetworkOOSSerializer());

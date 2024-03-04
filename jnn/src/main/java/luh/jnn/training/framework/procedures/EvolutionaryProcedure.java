@@ -10,7 +10,7 @@ import luh.jnn.nn.Neuron;
 import luh.jnn.nn.Synapse;
 import luh.jnn.training.TrainingData;
 import luh.jnn.training.framework.TrainingConfig;
-import luh.jnn.training.framework.procedures.configuration.EvolutionaryProcedureConfiguration;
+import luh.jnn.training.framework.procedures.configuration.EvolutionaryConfiguration;
 import luh.jnn.training.framework.procedures.configuration.ProcedureConfiguration;
 
 public class EvolutionaryProcedure implements TrainingProcedure {
@@ -25,24 +25,24 @@ public class EvolutionaryProcedure implements TrainingProcedure {
 
   private NeuralNetwork mutation;
 
-  private EvolutionaryProcedureConfiguration procCon;
+  private EvolutionaryConfiguration procCon;
 
   public EvolutionaryProcedure() {
   }
 
   @Override
   public boolean compatibleConfiguration(ProcedureConfiguration procCon) {
-    return procCon instanceof EvolutionaryProcedureConfiguration;
+    return procCon instanceof EvolutionaryConfiguration;
   }
 
   @Override
   public void init(ProcedureConfiguration procCon) {
     if (!compatibleConfiguration(procCon)) {
-      Logging.logger.fatal("EvolutionaryProcedure needs to be initalized with a EvolutionaryProcedureConfiguration");
+      Logging.logger.fatal("EvolutionaryProcedure needs to be initalized with a EvolutionaryConfiguration");
       System.exit(1);
     }
 
-    this.procCon = (EvolutionaryProcedureConfiguration) procCon;
+    this.procCon = (EvolutionaryConfiguration) procCon;
   }
 
   private void introduceNoise() {
