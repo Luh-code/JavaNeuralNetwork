@@ -15,6 +15,7 @@ import luh.jnn.training.TrainingDataSet;
 import luh.jnn.training.framework.NNTrainer;
 import luh.jnn.training.framework.TrainingConfig;
 import luh.jnn.training.framework.procedures.EvolutionaryProcedure;
+import luh.jnn.training.framework.procedures.configuration.EvolutionaryProcedureConfiguration;
 
 public class Main {
   
@@ -40,7 +41,7 @@ public class Main {
     firstSynapse.setWeight(-0.7f);
     
     NNEvaluator evaluator = new NNEvaluator(nn);
-    float[] conditioning = new float[] {0.12f, 0.88f, 0.94f, 0.52f, 0.01f, 0.04f};
+    float[] conditioning = new float[] {1.0f, 0.84f, 0.68f, 0.49f, 0.33f, 0.16f};
     // float[] conditioning = new float[nn.getInputLayer().getTensorSize()];
     // Random random = new Random();
     // for (int i = 0; i < conditioning.length; i++) {
@@ -50,11 +51,12 @@ public class Main {
     evaluator.fullEvaluation();
     Logging.logger.info(Arrays.toString(evaluator.getResult()));
 
-    NNTrainer trainer = new NNTrainer(new EvolutionaryProcedure(200, 0.2f), nn, new NNSaver(new NeuralNetworkOOSSerializer()));
-    trainer.train(new TrainingConfig(new TrainingDataSet(new TrainingData[] {
+    NNTrainer trainer = new NNTrainer (new EvolutionaryProcedure(), nn, new NNSaver(new NeuralNetworkOOSSerializer()));
+    trainer.train(new TrainingConfig (new TrainingDataSet(new TrainingData[] {
       new TrainingData(new float[] {1.0f, 0.84f, 0.68f, 0.49f, 0.33f, 0.16f}, new float[] {1.0f, 0.5f, 0.25f}),
-      new TrainingData(new float[] {0.16f, 0.33f, 0.49f, 0.68f, 0.84f, 1.0f}, new float[] {0.25f, 0.5f, 1.0f}),
-    }), 1000, 50, new File("models/test/checkpoints/"), "test"));
+      // new TrainingData(new float[] {0.16f, 0.33f, 0.49f, 0.68f, 0.84f, 1.0f}, new float[] {0.25f, 0.5f, 1.0f}),
+    }), 2000, 50, new File("models/test/checkpoints/"), "test"
+      , new EvolutionaryProcedureConfiguration(200, true, 0.2f)));
     nn = trainer.getTrainedNeuralNetwork();
 
     NNSaver saver = new NNSaver(new NeuralNetworkOOSSerializer());

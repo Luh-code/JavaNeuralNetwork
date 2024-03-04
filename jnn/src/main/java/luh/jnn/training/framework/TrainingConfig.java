@@ -3,6 +3,7 @@ package luh.jnn.training.framework;
 import java.io.File;
 
 import luh.jnn.training.TrainingDataSet;
+import luh.jnn.training.framework.procedures.configuration.ProcedureConfiguration;
 
 public class TrainingConfig {
   private TrainingDataSet trainingData;
@@ -10,13 +11,17 @@ public class TrainingConfig {
   private int checkpointDistance;
   private File checkpointLocation;
   private String modelName;
+
+  private ProcedureConfiguration procedureConfig;
   
-  public TrainingConfig(TrainingDataSet trainingData, int iterationCount, int checkpointDistance, File checkpointLocation, String modelName) {
+  public TrainingConfig(TrainingDataSet trainingData, int iterationCount,
+                        int checkpointDistance, File checkpointLocation, String modelName, ProcedureConfiguration procedureConfig) {
     this.trainingData = trainingData;
     this.iterationCount = iterationCount;
     this.checkpointDistance = checkpointDistance;
     this.checkpointLocation = checkpointLocation;
     this.modelName = modelName;
+    this.procedureConfig = procedureConfig;
   }
 
   public void setTrainingData(TrainingDataSet trainingData) {
@@ -48,5 +53,13 @@ public class TrainingConfig {
   }
   public TrainingDataSet getTrainingData() {
     return trainingData;
+  }
+
+  public ProcedureConfiguration getProcedureConfig() {
+    return procedureConfig;
+  }
+
+  public void setProcedureConfig(ProcedureConfiguration procedureConfig) {
+    this.procedureConfig = procedureConfig;
   }
 }

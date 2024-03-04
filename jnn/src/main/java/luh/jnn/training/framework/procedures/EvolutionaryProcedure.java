@@ -10,10 +10,10 @@ import luh.jnn.nn.Neuron;
 import luh.jnn.nn.Synapse;
 import luh.jnn.training.TrainingData;
 import luh.jnn.training.framework.TrainingConfig;
+import luh.jnn.training.framework.procedures.configuration.EvolutionaryProcedureConfiguration;
+import luh.jnn.training.framework.procedures.configuration.ProcedureConfiguration;
 
 public class EvolutionaryProcedure implements TrainingProcedure {
-  private int instances;
-  private float learningRate;
   private NeuralNetwork nn;
   private NeuralNetwork best;
   private float[] bestTensor;
@@ -23,30 +23,45 @@ public class EvolutionaryProcedure implements TrainingProcedure {
   private TrainingData data;
   private Random rnd;
 
-  public EvolutionaryProcedure(int instances, float learningRate) {
-    this.instances = instances;
-    this.learningRate = learningRate;
+  private NeuralNetwork mutation;
+
+  private EvolutionaryProcedureConfiguration procCon;
+
+  public EvolutionaryProcedure() {
   }
 
-  private NeuralNetwork introduceNoise() {
-    NeuralNetwork current = nn.clone();
+  @Override
+  public boolean compatibleConfiguration(ProcedureConfiguration procCon) {
+    return procCon instanceof EvolutionaryProcedureConfiguration;
+  }
 
+  @Override
+  public void init(ProcedureConfiguration procCon) {
+    if (!compatibleConfiguration(procCon)) {
+      Logging.logger.fatal("EvolutionaryProcedure needs to be initalized with a EvolutionaryProcedureConfiguration");
+      System.exit(1);
+    }
 
-    for (int i = 0; i < current.getLayerCount(); i++) {
-      Layer currentLayer = current.getLayer(i);
-      currentLayer.setBias(currentLayer.getBias()+rnd.nextFloat(-this.learningRate/2f, this.learningRate/2f));
+    this.procCon = (EvolutionaryProcedureConfiguration) procCon;
+  }
+
+  private void introduceNoise() {
+    for (int i = 0; i < mutation.getLayerCount(); i++) {
+      Layer currentLayer = mutation.getLayer(i);
+      currentLayer.setBias(best.getLayer(i).getBias()+rnd.nextFloat(
+        -this.procCon.getLearningRate()/2f, this.procCon.getLearningRate()/2f));
 
       for (int j = 0; j < currentLayer.getTensorSize(); j++) {
         Neuron currentNeuron = currentLayer.getNeuron(j);
         if (currentNeuron.getOutputSynapses() == null) break;
         for (int k = 0; k < currentNeuron.getOutputSynapses().length; k++) {
           Synapse currentSynapse = currentNeuron.getOutputSynapses()[k];
-          currentSynapse.setWeight(currentSynapse.getWeight()+rnd.nextFloat(-this.learningRate/2f, this.learningRate/2f));
+          currentSynapse.setWeight(
+            best.getLayer(i).getNeuron(j).getOutputSynapses()[k].getWeight()+rnd.nextFloat(
+              -this.procCon.getLearningRate()/2f, this.procCon.getLearningRate()/2f));
         }
       }
     }
-
-    return current;
   }
 
   private float calculateError(float[] tensor) {
@@ -79,9 +94,12 @@ public class EvolutionaryProcedure implements TrainingProcedure {
 
     this.bestError = calculateError(this.bestTensor);
 
-    for (int i = 0; i < this.instances; i++) {
-      NeuralNetwork current = introduceNoise();
-      this.evaluator = new NNEvaluator(current);
+    this.mutation = nn.clone();
+
+    for (int i = 0; i < this.procCon.getInstances(); i++) {
+      //NeuralNetwork current = introduceNoise();
+      introduceNoise();
+      this.evaluator = new NNEvaluator(mutation);
       this.evaluator.setConditioning(this.data.getInput());
       this.evaluator.fullEvaluation();
       float[] currentTensor = this.evaluator.getResult();
@@ -94,7 +112,7 @@ public class EvolutionaryProcedure implements TrainingProcedure {
         Logging.logger.info(String.format("Found model with higher accuracy (Accuracy: %.6f/%.4f%% -> Error: %.6f/%.4f%%",
               1.0f-error, (1.0f-error)*100.0f,
               error, error*100.0f));
-        this.best = current;
+        this.best = mutation.clone();
         this.bestTensor = currentTensor;
         this.bestError = error;
         this.best.clear();
