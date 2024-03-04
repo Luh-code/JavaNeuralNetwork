@@ -68,6 +68,14 @@ public class NNTrainer {
       Logging.logger.error("Need at least one piece of training data");
       return;
     }
+
+    if (!this.proc.compatibleConfiguration(this.config.getProcedureConfig())){
+      Logging.logger.error(String.format("Procedure type and Procedure config incompatibility: '%s' is not compatible with '%s'",
+        this.proc.getClass().getName(), this.config.getProcedureConfig().getClass().getName()));
+      return;
+    }
+
+    this.proc.init(this.config.getProcedureConfig());
     
     while (this.currentIteration < this.config.getIterationCount()) {
       iteration();

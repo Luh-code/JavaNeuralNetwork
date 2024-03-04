@@ -3,7 +3,6 @@
 
 # Ignore Gradle build output directory
 build
-gradle
 jnn/models
 jnn/error.log
 jnn/full.log
